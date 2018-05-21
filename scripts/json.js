@@ -1,4 +1,4 @@
-var json = [
+let json = [
     {
       "question": "Who was the leader of Solidarity?",
       "answers": [
