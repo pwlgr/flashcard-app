@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+
 
 body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -53,6 +53,7 @@ h1 {
 .answer {
   margin:25px;
   width:250px !important;
+  display:none !important;
 }
 
 .title {
@@ -105,3 +106,34 @@ h1 {
   color:#ff796b;
 }
 
+.show {
+  display: block !important;
+}
+
+.start {
+  margin-top:76px;
+border-radius:0px !important;
+}
+
+.rules h4 {
+  margin-bottom:20px;
+}
+
+.finish  {
+  display:none !important;
+}
+
+
+.gameover {
+  text-align: center;
+  display:none;
+}
+
+.gameover h1 {
+  margin-bottom:95px;
+}
+
+.gameover h4 {
+  background: #57b2f8;
+  color:#f0f3f5;
+}
